@@ -33,12 +33,18 @@
             left: 10px;
             z-index: 1000;
         }
+        .music-control button {
+            background-color: black;
+            color: white;
+            border: 2px solid white;
+            margin-right: 5px;
+        }
     </style>
 </head>
 <body>
     <div class="music-control">
-        <button id="playButton" class="btn btn-primary">播放音樂</button>
-        <button id="pauseButton" class="btn btn-danger">停止音樂</button>
+        <button id="playButton" class="btn">播放音樂</button>
+        <button id="pauseButton" class="btn">停止音樂</button>
     </div>
     <audio id="backgroundMusic" loop>
         <source src="music.mp3" type="audio/mpeg">
